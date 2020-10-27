@@ -1,0 +1,143 @@
+<!--pages/index/index.wxml-->
+<button type='default' bindtap='jumpBtn'>查看今日记录</button>
+<view class='container'>
+<text>今日消耗卡路里{{count}}大卡</text>
+<form catchsubmit="formSubmit" catchreset="formReset">
+<view class='sports'>
+  <view class='bar'>
+    <view class='box'>走路</view>
+    <view class='box'>跑步</view>
+    <view class='box'>跳绳</view>
+    <view class='box'>呼啦圈</view>
+  </view>
+  <view class='bar'>
+   <view class='box'>
+    <input type='number'
+        placeholder='{{walkTime}}'
+        placeholder-style='color:#FF0000;'
+        maxlength='4'
+        cursor-spacing='5px'
+        auto-focus='true'
+        focus='true'
+        bindinput='inputWalk'
+        >
+    </input>
+    <text>min</text>
+   </view>
+   <view class='box'>
+    <input type='number'
+        placeholder='{{runTime}}'
+        placeholder-style='color:#FF0000;'
+        maxlength='4'
+        cursor-spacing='5px'
+        auto-focus='true'
+        focus='true'
+        bindinput='inputRun'
+        >
+    </input>
+    <text>min</text>
+   </view>
+   <view class='box'>
+    <input type='number'
+        placeholder='{{jumpTime}}'
+        placeholder-style='color:#FF0000;'
+        maxlength='4'
+        cursor-spacing='5px'
+        auto-focus='true'
+        focus='true'
+        bindinput='inputJump'
+        >
+    </input>
+    <text>min</text>
+   </view>
+   <view class='box'>
+    <input type='number'
+        placeholder='{{circleTime}}'
+        placeholder-style='color:#FF0000;'
+        maxlength='4'
+        cursor-spacing='5px'
+        auto-focus='true'
+        focus='true'
+        bindinput='inputCircle'
+        >
+    </input>
+    <text>min</text>
+   </view>
+  </view>
+  <view class='bar'>
+    <view class='box'>累计消耗{{walk}}大卡</view>
+    <view class='box'>累计消耗{{run}}大卡</view>
+    <view class='box'>累计消耗{{jump}}大卡</view>
+    <view class='box'>累计消耗{{circle}}大卡</view>
+  </view>
+  <view class='bar'>
+    <view class='box'>打球</view>
+    <view class='box'>骑车</view>
+    <view class='box'>跳操</view>
+    <view class='box'>力量训练</view>
+  </view>
+ <view class='bar'>
+   <view class='box'>
+    <input type='number'
+        placeholder='{{ballTime}}'
+        placeholder-style='color:#FF0000;'
+        maxlength='4'
+        cursor-spacing='5px'
+        auto-focus='true'
+        focus='true'
+        bindinput='inputBall'
+        >
+    </input>
+    <text>min</text>
+   </view>
+   <view class='box'>
+    <input type='number'
+        placeholder='{{bikeTime}}'
+        placeholder-style='color:#FF0000;'
+        maxlength='4'
+        cursor-spacing='5px'
+        auto-focus='true'
+        focus='true'
+        bindinput='inputBike'
+        >
+    </input>
+    <text>min</text>
+   </view>
+   <view class='box'>
+    <input type='number'
+        placeholder='{{tiaoTime}}'
+        placeholder-style='color:#FF0000;'
+        maxlength='4'
+        cursor-spacing='5px'
+        auto-focus='true'
+        focus='true'
+        bindinput='inputTiao'
+        >
+    </input>
+    <text>min</text>
+   </view>
+   <view class='box'>
+    <input type='number'
+        placeholder='{{energyTime}}'
+        placeholder-style='color:#FF0000;'
+        maxlength='4'
+        cursor-spacing='5px'
+        auto-focus='true'
+        focus='true'
+        bindinput='inputEnergy'
+        >
+    </input>
+    <text>min</text>
+   </view>
+  </view>
+  <view class='bar'>
+    <view class='box'>累计消耗{{ball}}大卡</view>
+    <view class='box'>累计消耗{{bike}}大卡</view>
+    <view class='box'>累计消耗{{tiao}}大卡</view>
+    <view class='box'>累计消耗{{energy}}大卡</view>
+  </view>
+</view>
+<button bindtap='jisuan'>Submit</button>
+<button formType='reset'>Reset</button>
+</form>
+</view>

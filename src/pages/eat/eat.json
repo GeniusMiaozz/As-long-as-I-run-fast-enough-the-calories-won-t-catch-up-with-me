@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "add_eat": "./add_eat/add_eat",
+    "today_eat": "./today_eat/today_eat"
+  }
+}

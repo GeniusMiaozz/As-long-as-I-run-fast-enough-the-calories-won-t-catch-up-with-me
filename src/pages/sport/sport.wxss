@@ -1,0 +1,48 @@
+/* pages/index/index.wxss */
+
+.title {
+  font-size: 45rpx;
+  font-weight: 700;
+  color: brown;
+  width: 100%;
+  text-align: center; /*中心对齐*/
+  flex-direction: row; /*水平方向排列*/
+  display: flex; /*分散布局*/
+  justify-content: space-around; /*弹性布局*/
+}
+
+/* pages/index/index.wxss */
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+text {
+  font-size: 45rpx;
+  font-weight: 700;
+  color: brown;
+}
+
+.box {
+  width: 33.3%;
+  text-align: center;
+}
+
+.sports {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx 0;
+}
+
+.navigator-hover button {
+  background-color: #dedede;
+}

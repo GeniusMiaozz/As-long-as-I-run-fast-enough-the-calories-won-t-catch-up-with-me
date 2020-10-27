@@ -1,0 +1,15 @@
+/* pages/foodChoice/lingshi/lingshi.wxss */
+.container{
+  display:flex;
+  flex-direction:row;
+}
+.discription{
+  display:flex;
+  flex-direction:column;
+}
+image{
+  width: 220rpx;
+}
+.jiaBtn::after{
+  border: none;
+}

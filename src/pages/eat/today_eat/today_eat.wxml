@@ -1,0 +1,33 @@
+<!--pages/todayDiet/todayDiet.wxml-->
+<view class='timeAxis'>
+  <block>
+    <view class='timeList'>
+      <view class='timeCircle'></view>
+      <view class='timeLine'>
+        <view class='timeTime'>早餐</view>
+        <view class='timeEvent'>{{foodCa1}}</view>
+      </view>
+    </view>
+    <view class='timeList'>
+      <view class='timeCircle'></view>
+      <view class='timeLine'>
+        <view class='timeTime'>午餐</view>
+        <view class='timeEvent'>{{foodCa2}}</view>
+      </view>
+    </view>
+    <view class='timeList'>
+      <view class='timeCircle'></view>
+      <view class='timeLine'>
+        <view class='timeTime'>晚餐</view>
+        <view class='timeEvent'>{{foodCa3}}</view>
+      </view>
+    </view>
+    <view class='timeList'>
+      <view class='timeCircle'></view>
+      <view class='timeLine'>
+        <view class='timeTime'>其他</view>
+        <view class='timeEvent'>{{foodCa4}}</view>
+      </view>
+    </view>
+  </block>
+</view>

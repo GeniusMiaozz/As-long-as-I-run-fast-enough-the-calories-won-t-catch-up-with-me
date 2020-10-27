@@ -1,0 +1,87 @@
+/* pages/foodChoice/foodChoice.wxss */
+.container1{
+  display: flex;
+  flex-direction: row; /*水平方向排列*/
+}
+.container2{
+  display: flex;
+  flex-direction: row; /*水平方向排列*/
+}
+.zhengcan{
+  width: 50%;
+  text-align: center; /*中心对齐*/
+  flex-direction: row; /*水平方向排列*/
+  justify-content: space-around; /*弹性布局*/
+  box-sizing: border-box; /*，指定两个箱子接壤，限定了盒子模型的总面积？？*/
+  margin-top: 60rpx;
+}
+.text1{
+  margin-top: 210rpx;
+}
+.zhengcan image{
+   flex-direction: column; /*水平方向排列*/
+   width: 50%;
+   justify-content: space-around; /*弹性布局*/
+}
+.zhengcan button{
+  width: 50%;
+  margin-top: 30rpx;
+}
+.shuiguo{
+  width: 50%;
+  text-align: center; /*中心对齐*/
+  flex-direction: row; /*水平方向排列*/
+  justify-content: space-around; /*弹性布局*/
+  box-sizing: border-box; /*，指定两个箱子接壤，限定了盒子模型的总面积？？*/
+  margin-top: 60rpx;
+}
+.shuiguo image{
+   flex-direction: column; /*水平方向排列*/
+   width: 50%;
+   justify-content: space-around; /*弹性布局*/
+}
+.shuiguo button{
+  width: 50%;
+  margin-top: 30rpx;
+}
+.lingshi{
+  width: 50%;
+  text-align: center; /*中心对齐*/
+  flex-direction: row; /*水平方向排列*/
+  justify-content: space-around; /*弹性布局*/
+  box-sizing: border-box; /*，指定两个箱子接壤，限定了盒子模型的总面积？？*/
+  margin-top: 60rpx;
+}
+.lingshi image{
+   flex-direction: column; /*水平方向排列*/
+   width: 50%;
+   justify-content: space-around; /*弹性布局*/
+}
+.lingshi button{
+  width: 50%;
+  margin-top: 30rpx;
+}
+.drink{
+  width: 50%;
+  text-align: center; /*中心对齐*/
+  flex-direction: row; /*水平方向排列*/
+  justify-content: space-around; /*弹性布局*/
+  box-sizing: border-box; /*，指定两个箱子接壤，限定了盒子模型的总面积？？*/
+  margin-top: 60rpx;
+}
+.drink image{
+   flex-direction: column; /*水平方向排列*/
+   width: 50%;
+   justify-content: space-around; /*弹性布局*/
+}
+.drink button{
+  width: 50%;
+  margin-top: 30rpx;
+}
+image{
+  width: 220rpx;
+}
+.btn{
+  height: 100rpx;
+  align-items: center;
+}

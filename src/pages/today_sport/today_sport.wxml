@@ -1,0 +1,13 @@
+<!--pages/index/log.wxml-->
+<button type='default' bindtap='backBtn'>返回</button>
+<view class='container'>
+  <text>走路：{{walkTime}}min</text>
+  <text>跑步：{{runTime}}min</text>
+  <text>跳绳：{{jumpTime}}min</text>
+  <text>呼啦圈：{{circleTime}}min</text>
+  <text>打球：{{ballTime}}min</text>
+  <text>骑车：{{bikeTime}}min</text>
+  <text>跳操：{{jumpTime}}min</text>
+  <text>力量训练：{{energyTime}}min</text>
+  <text>今日累计运动：{{countTime}}min</text>
+</view>

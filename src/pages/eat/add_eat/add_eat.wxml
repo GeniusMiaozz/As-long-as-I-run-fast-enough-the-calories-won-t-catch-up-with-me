@@ -1,0 +1,26 @@
+<!--pages/foodChoice/foodChoice.wxml-->
+<view class='foods'>
+  <view class='container1'>
+    <view class='drink'>
+      <image src='/images/drink.jpg' mode='widthFix'></image>
+      <button class='btn' bindtap='gotodrinks'>饮料</button>
+    </view>
+    <view class='lingshi'>
+      <image src='/images/lingshi.png' mode='widthFix'></image>
+      <button class='btn' bindtap='gotolingshi'>零食</button>
+    </view>
+  </view>
+<view class='container2'>
+  <view class='shuiguo'>
+    <image src='/images/shuiguo.png' mode='widthFix'></image>
+    <button class='btn' bindtap='gotoshuiguo'>水果</button>
+  </view>
+  <view class='zhengcan'>
+    <image src='/images/zhengcan.png' mode='widthFix'></image>
+    <button class='btn' bindtap='gotozhengcan'>正餐</button>
+  </view>
+</view>
+  <view class='text1' style='text-align:center;'>
+    <text style='font-size: 30rpx;color:grey;'>每次食物添加按100g计算</text>
+  </view>
+</view>

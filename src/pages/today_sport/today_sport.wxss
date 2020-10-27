@@ -1,0 +1,14 @@
+/* pages/log/log.wxss */
+text{
+  font-size: 45rpx;
+  font-weight: 70;
+  margin-top: 40rpx;
+  color:black;
+}
+.container{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  height: 500rpx,
+  
+}

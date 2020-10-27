@@ -1,0 +1,18 @@
+<view class='container'>
+  <view id='biaoti'>最近七天记录</view>
+  <view id='past-list'>
+    <view class='list-item' wx:for="{{List}}" wx:for-item="past" wx:key="{{past.id}}">
+      <text class='past-title'>{{past.add_date}}</text>
+      <view id='day'>
+        <text>\n你的嘴这一天摄入了{{past.inCalorie}}卡路里！</text>
+        <text>\n你的腿这一天消耗了{{past.outCalorie}}卡路里！</text>
+        <text wx:if='{{past.calorie>=0}}'>\n这一天你净增加了{{past.calorie}}卡路里</text>
+        <text wx:else='{{past.calorie<0}}'>\n这一天你净消耗了{{-past.calorie}}卡路里</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view id='tu1'>近一周内摄入/消耗卡路里</view>
+<canvas class="canvas1" canvas-id="lineGraph1"></canvas>
+<view id='tu2'>近一周内卡路里变化曲线</view>
+<canvas class="canvas2" canvas-id="lineGraph2"></canvas>

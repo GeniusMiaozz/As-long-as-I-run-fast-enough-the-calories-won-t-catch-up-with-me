@@ -1,0 +1,45 @@
+.container{
+  flex-direction: column;
+  display: flex;
+  background-color: rgba(247, 213, 174, 0.623);
+  background-image: line-gradient ;
+}
+#biaoti{
+  text-align: center;
+  font-style: oblique;
+  font-size: 60rpx;
+  font-weight:600;
+  font-family:fantasy;
+}
+.past-title{
+    margin-top: 30rpx;
+    font-size: 50rpx;
+}
+#day{
+  margin-left: 50rpx;
+  margin-top: -50rpx;
+}
+#tu1{
+  margin-top: 70rpx;
+  text-align: center;
+  font-family:fantasy;
+  font-weight:500;
+  font-size: 50rpx;
+}
+.canvas1 {
+  margin-top: 40rpx;
+  width: 310px;
+  height: 250px;
+}
+#tu2{
+  margin-top: 70rpx;
+  text-align: center;
+  font-family:fantasy;
+  font-weight:500;
+  font-size: 50rpx;
+}
+.canvas2 {
+  margin-top: 40rpx;
+  width: 310px;
+  height: 250px;
+}

@@ -1,0 +1,99 @@
+page{
+  background: #A5DEE4
+}
+.user_message {
+  width: 100%;
+  height: 300rpx;
+  text-align: center; /*中心对齐*/
+  flex-direction: row; /*水平方向排列*/
+  display: flex; /*分散布局*/
+  justify-content: space-around; /*弹性布局*/
+  box-sizing: border-box; /*，指定两个箱子接壤，限定了盒子模型的总面积？？*/
+  padding-top: 50rpx; /*容器内对象距离顶部50rpx*/
+  background:#A8D8B9
+}
+
+.user_img {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%; /*设定圆形*/
+  margin-top: 20rpx; /*容器距离顶部10rpx*/
+}
+
+.user_welcome {
+  width: 200px;
+  height: 200rpx;
+  flex-direction: column; /*水平方向排列*/
+  box-sizing: border-box; /*，指定两个箱子接壤，限定了盒子模型的总面积？？*/
+  padding-top: 30rpx; /*容器内对象距离顶部10rpx*/
+}
+
+/* position: absolute;
+  top: 0rpx;
+  left:0rpx;*/
+
+.user_welcome text {
+  font-size: 50rpx;/*总体大小*/
+}
+
+.user_welcome view {
+  margin-top: 40rpx;
+  font-size: 50rpx;/*总体大小*/
+}
+
+.user_welcome button{
+  margin-top: 40rpx;
+}
+.user_body_info {
+  width: 100%;
+  height: 200rpx;
+  display: flex; /*分散布局*/
+  justify-content: space-around; /*弹性布局*/
+  flex-direction: row; /*水平方向排列*/
+  padding-top: 50rpx; /*容器内对象距离顶部50rpx*/
+  box-sizing: border-box; /*，指定两个箱子接壤，限定了盒子模型的总面积？？*/
+  text-align: center; /*中心对齐*/
+  background: rgb(253, 253, 253)
+}
+
+.left_box view {
+  width: 150rpx;
+  height: 80rpx;
+  border: 1px solid #999;
+  margin-top: 30rpx;
+  padding-top: 10rpx;
+  box-sizing: border-box;
+}
+
+.right_box view {
+  width: 150rpx;
+  height: 80rpx;
+  border: 1px solid #999;
+  margin-top: 30rpx;
+  padding-top: 10rpx;
+  box-sizing: border-box;
+}
+
+.body_info_review {
+  display: flex; /*flex布局模式*/
+  flex-direction: column; /*垂直布局*/
+  align-items: center; /*水平方向居中*/
+  justify-content: space-around; /*垂直方向分散布局*/
+  background: rgb(253, 253, 253)
+}
+.body_info_review text{
+  margin-top: 40rpx;
+}
+.body_info_review image{
+  margin-top: 10rpx;
+}
+.choose{
+  width: 100%;
+  height: 350rpx;
+  text-align: center; /*中心对齐*/
+  flex-direction: column; /*竖直方向排列*/
+  display: flex; /*分散布局*/
+  justify-content: space-around; /*弹性布局*/
+  box-sizing: border-box; /*，指定两个箱子接壤，限定了盒子模型的总面积？？*/
+  padding-top: 30rpx; /*容器内对象距离顶部50rpx*/
+}

@@ -1,0 +1,37 @@
+<!--pages/foodChoice/drinks/drinks.wxml-->
+<view class='container'>
+  <image src='/images/drink.jpg' mode='widthFix'></image>
+  <view class='discription'>
+    <text>健康果汁</text>
+    <text>18卡</text>
+  </view>
+  <button class="jiaBtn" bindtap='submit1'> 
+    <image src='/images/jia.png' mode='widthFix'></image>
+  </button>
+</view>
+<view class='container'>
+  <image src='/images/coke.jpg' mode='widthFix'></image>
+  <view class='discription'>
+    <text>肥宅可乐</text>
+    <text>180卡</text>
+  </view>
+  <button class="jiaBtn" bindtap='submit2'> 
+    <image src='/images/jia.png' mode='widthFix'></image>
+  </button>
+</view>
+<view class='mask' catchtouchmove='preventTouchMove'wx:if="{{showModal}}"></view>
+<view class='modalDlg' wx:if="{{showModal}}">
+  <view style='display:flex;flex-direction:row;mardin-top:10px;align-items:center;height: 350px'>
+    <view style='font-weight:bold;'>摄入时间：</view>
+    <view style='display:flex;flex-direction:row'>
+      <input type='text' maxlength='2' style='border:1px solid #cccccc;width:60px;'bindinput='inputWalk'></input>
+      <view style='font-weight:bold;'>点</view>
+      <input type='text' maxlength='2' style='border:1px solid #cccccc;width:60px;'></input>
+      <view style='font-weight:bold;'>分</view>
+    </view>
+  </view>
+  <view style='display:flex;flex-direction:row;height: 400px;align-items:center'>
+    <button bindtap='addJuice2'>确定添加</button>
+    <button bindtap='go'> 点我关闭</button>
+  </view>
+</view>

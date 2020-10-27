@@ -1,0 +1,37 @@
+<view class='user_message'>
+  <view class='user_photo'>
+    <image wx:if='{{isLogin}}' class='user_img' src='{{src}}' mode='widthFix'></image>
+    <image wx:else class='user_img' src='{{src}}' mode='widthFix'></image>
+  </view>
+  <view class='user_welcome' id='myLogin'>
+    <block wx:if='{{isLogin}}'>
+      <text class='title'>Welcome back,</text>
+      <view>{{name}}!</view>
+    </block>
+    <block wx:else class='new_welcome'>
+      <text class='title'>Are you ready?</text>
+      <button open-type='getUserInfo' bindgetuserinfo='getMyInfo'>One key to return!</button>
+    </block>
+  </view>
+</view>
+<view class='user_body_info'>
+  <view class='left_box'>
+    <text class='title'>今日摄入</text>
+    <view>{{up_kaluli}}</view>
+  </view>
+  <view class='right_box'>
+    <text class='title'>今日消耗</text>
+    <view>{{down_kaluli}}</view>
+  </view>
+</view>
+<view class='body_info_review'>
+  <image src='{{src1}}' mode='widthFix' class='qiaoqiaoban'></image>
+  <text>{{kaluli_review}}</text>
+</view>
+<view class="choose">
+  <button wx:if='{{isLogin}}' bindtap='GoToRencentlyDatas'>{{choose1}}</button>
+  <button wx:else>{{choose1}}</button>
+  <button wx:if='{{isLogin}}' bindtap='GoToTodayReport'>{{choose2}}</button>
+  <button wx:else>{{choose2}}</button>
+  <button bindtap='clearStorage'>清除本地缓存</button>
+</view>

@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/sport/sport",
+    "pages/eat/eat",
+    "pages/TodayReport/TodayReport",
+    "pages/today_sport/today_sport",
+    "pages/RencentlyDatas/RencentlyDatas",
+     "pages/eat/add_eat/drinks/drinks"
+  ],
+  "window": {
+    "navigationBarTitleText": "只要我跑的够快卡路里就追不上我",
+    "navigationBarBackgroundColor": "#F596AA"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/eat/eat",
+        "text": "管住嘴",
+        "iconPath": "images/Eat.png",
+        "selectedIconPath": "images/SelectEat.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/Home.png",
+        "selectedIconPath": "images/SelectHome.png"
+      },
+      {
+        "pagePath": "pages/sport/sport",
+        "text": "迈开腿",
+        "iconPath": "images/Sport.png",
+        "selectedIconPath": "images/SelectSport.png"
+      }
+    ]
+  }
+}

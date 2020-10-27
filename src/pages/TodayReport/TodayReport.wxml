@@ -1,0 +1,28 @@
+<!--pages/poster/poster.wxml-->
+<view class='all'>
+  <image src='../../images/kuang.png' id='kuang'></image>
+  <view class='container'>
+    <view class='title'>
+      <image src='{{picture}}' id='xunZhang'></image>
+      <text id='titleZi'>看看你今天的努力成果哦！</text>
+    </view>
+    <view id='time'>{{time}}</view>
+    <view id='tongJi'>
+      <view class='breakfast'>早餐摄入：+{{calorie.breakfast}}cal</view>
+      <view class='lunch'>午餐摄入：+{{calorie.lunch}}cal</view>
+      <view>晚餐摄入：+{{calorie.dinner}}cal</view>
+      <view>其它摄入：+{{calorie.other}}cal</view>
+      <view>运动消耗：-{{calorie.consume}}cal</view>
+    </view>
+    <view id='result'>
+      <view wx:if='{{sum>=0}}'>
+        <view>今天一不小心摄入了{{sum}}卡路里哦！</view>
+        <image src='../../images/sad.png' id='sad'></image>
+      </view>
+      <view wx:else='{{sum<0}}'>
+        <view>恭喜你今天成功消耗了{{-sum}}卡路里哦！</view>
+        <image src='../../images/happy.png' id='happy'></image>
+      </view>
+    </view>
+  </view>
+</view>
